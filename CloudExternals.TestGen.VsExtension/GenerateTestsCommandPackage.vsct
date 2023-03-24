@@ -54,7 +54,7 @@
           If you do not want an image next to your command, remove the Icon node /> -->
       <Button guid="guidGenerateTestsCommandPackageCmdSet" id="GenerateTestsCommandId" priority="0x0100" type="Button">
         <Parent guid="guidGenerateTestsCommandPackageCmdSet" id="MyMenuGroup" />
-        <Icon guid="guidImages" id="bmpPic2" />
+        <Icon guid="guidImages" id="bmpPic3" />
         <Strings>
           <ButtonText>Generate Tests</ButtonText>
         </Strings>
