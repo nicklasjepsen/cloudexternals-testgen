@@ -107,7 +107,7 @@
     <Content Include="Resources\ToolWindow1Package.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Nicks.UnitTester.Shared\CloudExternals.TestGen.Shared.csproj">
+    <ProjectReference Include="..\CloudExternals.TestGen.Shared\CloudExternals.TestGen.Shared.csproj">
       <Project>{45ef61cf-c649-4425-9f7c-8e442a2706af}</Project>
       <Name>CloudExternals.TestGen.Shared</Name>
     </ProjectReference>
