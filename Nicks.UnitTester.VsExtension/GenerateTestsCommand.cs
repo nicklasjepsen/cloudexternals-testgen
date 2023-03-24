@@ -1,25 +1,14 @@
 ﻿using EnvDTE;
 
 using EnvDTE80;
-
-using Microsoft;
-using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Text;
-using Microsoft.VisualStudio.Threading;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Forms;
 using Community.VisualStudio.Toolkit;
 using Microsoft.VisualStudio.Imaging;
 using Microsoft.VisualStudio.Shell.Interop;
@@ -28,10 +17,7 @@ using Nicks.UnitTester.Shared;
 using Nicks.UnitTester.Shared.OpenAI;
 using File = System.IO.File;
 using Microsoft.VisualStudio.TaskStatusCenter;
-using System.Runtime;
-using EnvDTE100;
 using Project = Community.VisualStudio.Toolkit.Project;
-using SolutionFolder = EnvDTE80.SolutionFolder;
 
 namespace Nicks.UnitTester.VsExtension
 {
