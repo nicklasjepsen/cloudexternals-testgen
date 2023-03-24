@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Nicks.UnitTester.Shared.OpenAI
+namespace CloudExternals.TestGen.Shared.OpenAI
 {
     public static class Registration
     {

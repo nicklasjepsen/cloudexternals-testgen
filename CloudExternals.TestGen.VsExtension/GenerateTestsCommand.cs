@@ -1,25 +1,25 @@
-﻿using EnvDTE;
-
-using EnvDTE80;
-using Microsoft.VisualStudio.Shell;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using CloudExternals.TestGen.Shared;
+using CloudExternals.TestGen.Shared.OpenAI;
+using CloudExternals.TestGen.VsExtension.Options;
 using Community.VisualStudio.Toolkit;
+using EnvDTE;
+using EnvDTE80;
 using Microsoft.VisualStudio.Imaging;
+using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
-using Newtonsoft.Json;
-using Nicks.UnitTester.Shared;
-using Nicks.UnitTester.Shared.OpenAI;
-using File = System.IO.File;
 using Microsoft.VisualStudio.TaskStatusCenter;
+using Newtonsoft.Json;
+using File = System.IO.File;
 using Project = Community.VisualStudio.Toolkit.Project;
 
-namespace Nicks.UnitTester.VsExtension
+namespace CloudExternals.TestGen.VsExtension
 {
     /// <summary>
     /// Command handler

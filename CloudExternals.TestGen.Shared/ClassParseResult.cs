@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nicks.UnitTester.Shared
+namespace CloudExternals.TestGen.Shared
 {
     public class ClassParseResult
     {

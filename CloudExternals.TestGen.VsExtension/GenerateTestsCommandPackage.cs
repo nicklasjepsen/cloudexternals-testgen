@@ -1,19 +1,12 @@
-﻿using Microsoft.VisualStudio;
-using Microsoft.VisualStudio.OLE.Interop;
-using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
-using Microsoft.Win32;
-using System;
-using System.ComponentModel.Design;
-using System.Diagnostics;
+﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Threading;
-using System.Threading.Tasks;
+using CloudExternals.TestGen.VsExtension.Options;
+using Microsoft.VisualStudio.Shell;
 using Task = System.Threading.Tasks.Task;
 
-namespace Nicks.UnitTester.VsExtension
+namespace CloudExternals.TestGen.VsExtension
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.

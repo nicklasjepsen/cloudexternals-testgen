@@ -21,8 +21,8 @@
     <ProjectGuid>{BAE0AEEC-9FBC-4C14-9ED3-B33F63B89BF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nicks.UnitTester.VsExtension</RootNamespace>
-    <AssemblyName>Nicks.UnitTester.VsExtension</AssemblyName>
+    <RootNamespace>CloudExternals.TestGen.VsExtension</RootNamespace>
+    <AssemblyName>CloudExternals.TestGen.VsExtension</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
@@ -57,7 +57,7 @@
     <Compile Include="GenerateTestsCommandPackage.cs" />
     <Compile Include="Options\General.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Nicks.UnitTester.VsExtensionPackage.cs" />
+    <Compile Include="CloudExternalsTestGenVsExtensionPackage.UnitTester.VsExtensionPackage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="source.extension.vsixmanifest">
@@ -107,9 +107,9 @@
     <Content Include="Resources\ToolWindow1Package.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Nicks.UnitTester.Shared\Nicks.UnitTester.Shared.csproj">
+    <ProjectReference Include="..\CloudExternals.TestGen.Shared\CloudExternals.TestGen.Shared.csproj">
       <Project>{45ef61cf-c649-4425-9f7c-8e442a2706af}</Project>
-      <Name>Nicks.UnitTester.Shared</Name>
+      <Name>CloudExternals.TestGen.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

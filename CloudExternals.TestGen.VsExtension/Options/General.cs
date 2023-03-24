@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using Community.VisualStudio.Toolkit;
 
-namespace Nicks.UnitTester.VsExtension
+namespace CloudExternals.TestGen.VsExtension.Options
 {
     internal partial class OptionsProvider
     {

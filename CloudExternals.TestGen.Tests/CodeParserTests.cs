@@ -1,6 +1,6 @@
-using Nicks.UnitTester.Shared;
+using CloudExternals.TestGen.Shared;
 
-namespace Nicks.UnitTester.Tests
+namespace CloudExternals.TestGen.Tests
 {
     public class CodeParserTests
     {

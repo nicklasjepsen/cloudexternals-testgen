@@ -1,4 +1,4 @@
-﻿namespace Nicks.UnitTester.Shared.OpenAI
+﻿namespace CloudExternals.TestGen.Shared.OpenAI
 {
     public class OpenAIOptions
     {

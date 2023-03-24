@@ -3,7 +3,7 @@ using System.Linq;
 using Markdig;
 using Markdig.Syntax;
 
-namespace Nicks.UnitTester.Shared
+namespace CloudExternals.TestGen.Shared
 {
     public class MarkdownParser
     {
