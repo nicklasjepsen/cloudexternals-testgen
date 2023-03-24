@@ -1,4 +1,4 @@
-﻿namespace Nicks.UnitTester.Shared
+﻿namespace CloudExternals.TestGen.Shared
 {
     public class MethodParseResult
     {

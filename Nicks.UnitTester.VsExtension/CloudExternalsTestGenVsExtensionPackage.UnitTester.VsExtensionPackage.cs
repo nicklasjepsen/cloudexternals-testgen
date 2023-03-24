@@ -1,10 +1,10 @@
-﻿using Microsoft.VisualStudio.Shell;
-using System;
+﻿using System;
 using System.Runtime.InteropServices;
 using System.Threading;
+using Microsoft.VisualStudio.Shell;
 using Task = System.Threading.Tasks.Task;
 
-namespace Nicks.UnitTester.VsExtension
+namespace CloudExternals.TestGen.VsExtension
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -25,7 +25,7 @@ namespace Nicks.UnitTester.VsExtension
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [Guid(PackageGuidString)]
-    public sealed class NicksUnitTesterVsExtensionPackage : AsyncPackage
+    public sealed class CloudExternalsTestGenVsExtensionPackage : AsyncPackage
     {
          /// <summary>
         /// Nicks.UnitTester.VsExtensionPackage GUID string.

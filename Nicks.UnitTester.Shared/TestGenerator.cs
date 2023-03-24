@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Nicks.UnitTester.Shared.OpenAI;
+using CloudExternals.TestGen.Shared.OpenAI;
 
-namespace Nicks.UnitTester.Shared
+namespace CloudExternals.TestGen.Shared
 {
     public class TestGenerator
     {

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nicks.UnitTester.VsExtension", "Nicks.UnitTester.VsExtension\Nicks.UnitTester.VsExtension.csproj", "{BAE0AEEC-9FBC-4C14-9ED3-B33F63B89BF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudExternals.TestGen.VsExtension", "Nicks.UnitTester.VsExtension\CloudExternals.TestGen.VsExtension.csproj", "{BAE0AEEC-9FBC-4C14-9ED3-B33F63B89BF1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nicks.UnitTester.Shared", "Nicks.UnitTester.Shared\Nicks.UnitTester.Shared.csproj", "{45EF61CF-C649-4425-9F7C-8E442A2706AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudExternals.TestGen.Shared", "Nicks.UnitTester.Shared\CloudExternals.TestGen.Shared.csproj", "{45EF61CF-C649-4425-9F7C-8E442A2706AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nicks.UnitTester.Tests", "Nicks.UnitTester.Tests\Nicks.UnitTester.Tests.csproj", "{B6098E47-3884-4C45-A4EB-12AFCF1928DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudExternals.TestGen.Tests", "Nicks.UnitTester.Tests\CloudExternals.TestGen.Tests.csproj", "{B6098E47-3884-4C45-A4EB-12AFCF1928DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

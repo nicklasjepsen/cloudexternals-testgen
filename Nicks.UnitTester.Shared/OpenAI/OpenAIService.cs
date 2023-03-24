@@ -1,10 +1,9 @@
-﻿using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace Nicks.UnitTester.Shared.OpenAI
+namespace CloudExternals.TestGen.Shared.OpenAI
 {
     public class OpenAIService
     {
