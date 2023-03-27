@@ -8,7 +8,7 @@ namespace CloudExternals.TestGen.Shared
     public class TestGenerator
     {
         private const string prompt =
-            "You are a code generator that only responds with generated code. Your task is to generate unit tests for the provided methods. Use xUnit and Moq.";
+            "You are a code generator that only responds with generated code. Your task is to generate unit tests covering at least 90 % of the following C# class. Use xUnit and Moq.";
         private static OpenAIOptions options = new OpenAIOptions(OpenAIOptions.GPT35Turbo)
         {
             //MaxTokens = int.MaxValue,
