@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CloudExternals.TestGen.Shared\CloudExternals.TestGen.Shared.csproj" />
-    <ProjectReference Include="..\Nicks.UnitTester.Shared\CloudExternals.TestGen.Shared.csproj" />
   </ItemGroup>
 
 </Project>
