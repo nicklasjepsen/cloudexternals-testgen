@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Nicks.UnitTester.VsExtension.b6c150d1-46a2-4117-9036-8310bc1d9c91" Version="1.0" Language="en-US" Publisher="Nicklas Møller Jepsen" />
-    <DisplayName>Nicks.UnitTester.VsExtension</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Identity Id="CloudExternals.TestGen.VsExtension.b6c150d1-46a2-4117-9036-8310bc1d9c91" Version="0.1.0" Language="en-US" Publisher="CloudExternals" />
+    <DisplayName>CloudExternals TestGen</DisplayName>
+    <Description>https://github.com/nicklasjepsen/cloudexternals-testgen</Description>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
