@@ -1,3 +1,5 @@
+https://user-images.githubusercontent.com/2478876/227837527-6ffa3962-5010-439b-8559-9f3f70bf9985.mp4
+
 # CloudExternals TestGen
 ## Introduction
 This Visual Studio 2022 extension allow for rapid unit test generation of existing C# classes by using OpenAI.
@@ -27,5 +29,3 @@ At the time being there's no released VS Extension, so you would have to clone t
 
 Please go to: Tools > Options > CloudExternals > Enter your OpenAI API key here.
 After doing so you can open up a solution, find a C# class, right click, Generate Tests.
-
-
